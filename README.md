@@ -223,9 +223,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Sofiane Belhia**
 
 - GitHub: [@BelhiaSofiane](https://github.com/BelhiaSofiane)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
-- Portfolio: [your-portfolio-url.com](https://your-portfolio-url.com)
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sofiane-belhia/)
+- Email: sofianemekkibelhia@gmail.com
+- Portfolio: [sofianebelhia.com](https://your-portfolio-url.com)
 
 ---
 
