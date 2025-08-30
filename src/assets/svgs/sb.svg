@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Fancy SB Monogram with Gradient</title>
+
+  <defs>
+    <!-- Custom gradient -->
+    <linearGradient id="fancyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE7A3"/>
+      <stop offset="100%" stop-color="#FF0000"/>
+    </linearGradient>
+
+    <!-- Drop shadow (optional, can remove if you want only flat letters) -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur"/>
+      <feOffset in="blur" dx="0" dy="6" result="offset"/>
+      <feMerge>
+        <feMergeNode in="offset"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Gradient text only -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-size="180"
+        font-family="UnifrakturCook, UnifrakturMaguntia, 'Old English Text MT', 'Lucida Blackletter', serif"
+        fill="url(#fancyGradient)"
+        filter="url(#shadow)">
+    𝔖𝔅
+  </text>
+</svg>

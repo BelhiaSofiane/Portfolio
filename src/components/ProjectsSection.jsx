@@ -1,0 +1,70 @@
+import gsap from "gsap";
+import { useLayoutEffect, useRef, useState } from "react";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+const ProjectsSection = () => {
+    const projectsRef = useRef(null);
+    const [hoveredProject, setHoveredProject] = useState(null);
+
+    const projects = [
+        { id: 1, title: 'MediGuide', number: '01', color: 'bg-gradient-to-br from-purple-400 to-pink-400', description: 'MediGuide is a medical app designed to help users seek medical assistance, receive advice, and securely store medical history all in a single place.' },
+        { id: 2, title: 'Quizzical', number: '02', color: 'bg-gradient-to-br from-blue-400 to-purple-400', description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.' },
+        { id: 3, title: 'Budgeting-App', number: '03', color: 'bg-gradient-to-br from-indigo-400 to-blue-400', description: 'Budgeting-App is a modern, React-powered tool designed to streamline personal finance management with real-time feedback and intuitive navigation. Built with a focus on performance and modularity, it offers a comprehensive solution for tracking expenses, managing budgets, and providing a seamless user experience.' }
+    ];
+
+    useLayoutEffect(() => {
+        const ctx = gsap.context(() => {
+            gsap.registerPlugin(ScrollTrigger);
+
+            projects.forEach((project, index) => {
+                gsap.from(`.project-${index}`, {
+                    y: 100,
+                    opacity: 0,
+                    rotation: -5 + (index * 2),
+                    duration: 1,
+                    scrollTrigger: {
+                        trigger: `.project-${index}`,
+                        start: 'top 80%',
+                        end: 'bottom 20%',
+                        scrub: 1
+                    }
+                });
+            });
+        }, projectsRef);
+
+        return () => ctx.revert();
+    }, []);
+
+    return (
+        <section id="projects" ref={projectsRef} className="py-20">
+            <div className="container mx-auto px-6">
+                <h2 className="text-sm md:text-sm text-center mb-16 uppercase tracking-tight font-bold">Projects</h2>
+
+                <div className="space-y-8 md:space-y-12">
+                    {projects.map((project, index) => (
+                        <div
+                            key={project.id}
+                            className={`project-${index} project-card group relative`}
+                            onMouseEnter={() => setHoveredProject(project.id)}
+                            onMouseLeave={() => setHoveredProject(null)}
+                            style={{
+                                opacity: hoveredProject && hoveredProject !== project.id ? 0.3 : 1
+                            }}
+                        >
+                            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                                <div className="text-6xl md:text-8xl font-bold text-gray-200">{project.number}</div>
+                                <div className="flex-1">
+                                    <h3 className="text-3xl md:text-4xl font-bold mb-2">{project.title}</h3>
+                                    <p className="text-gray-500">{project.description}</p>
+                                </div>
+                                <div className={`w-32 h-32 md:w-48 md:h-48 ${project.color} rounded-2xl transform group-hover:scale-105 transition-transform duration-500`}></div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default ProjectsSection;
