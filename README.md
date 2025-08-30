@@ -216,14 +216,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## 📧 Contact
 
 **Sofiane Belhia**
 
 - GitHub: [@BelhiaSofiane](https://github.com/BelhiaSofiane)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sofiane-belhia/)
+- LinkedIn: [Sofiane Belhia](https://www.linkedin.com/in/sofiane-belhia/)
 - Email: sofianemekkibelhia@gmail.com
 - Portfolio: [sofianebelhia.com](https://your-portfolio-url.com)
 
