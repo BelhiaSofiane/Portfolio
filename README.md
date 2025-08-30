@@ -51,7 +51,6 @@ This repository contains my personal portfolio website. It highlights projects, 
 - **React Icons** - Popular icon libraries
 
 ### Tools & Libraries
-- **EmailJS** - Email service integration
 - **React Hook Form** - Form validation
 - **AOS** - Animate on scroll library
 - **Prism.js** - Syntax highlighting
