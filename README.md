@@ -15,7 +15,7 @@ Personal portfolio website showcasing projects, skills and contact information. 
 - [Tech Stack](#-tech-stack)
 - [Preview](#-preview)
 - [Getting Started](#-getting-started)
-  - [Prerequisites](#-prerequisites)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)
