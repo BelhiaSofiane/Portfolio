@@ -11,11 +11,11 @@ Personal portfolio website showcasing projects, skills and contact information. 
 ## 📋 Table of Contents
 
 - [About](#-about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Preview](#preview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Preview](#-preview)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
   - [Installation](#installation)
 - [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)
