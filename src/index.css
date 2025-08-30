@@ -1,14 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap');
 
-* {
-   box-sizing: border-box;
- }
-
-@theme {
-  --font-basker : 'Baskervville', serif;
-}
-
  html {
    scroll-behavior: smooth;
  }

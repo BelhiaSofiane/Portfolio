@@ -6,7 +6,7 @@ Personal portfolio website showcasing projects, skills and contact information. 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
 
-**Live Demo:** [https://your-portfolio-url.com](https://your-portfolio-url.com)
+**Live Demo:** [Soon to buy a domain name](https://your-portfolio-url.com)
 
 ## 📋 Table of Contents
 
@@ -51,10 +51,8 @@ This repository contains my personal portfolio website. It highlights projects, 
 - **React Icons** - Popular icon libraries
 
 ### Tools & Libraries
-- **EmailJS** - Email service integration
 - **React Hook Form** - Form validation
 - **AOS** - Animate on scroll library
-- **Prism.js** - Syntax highlighting
 
 ### Deployment
 - **Vercel/Netlify** - Continuous deployment
@@ -63,13 +61,13 @@ This repository contains my personal portfolio website. It highlights projects, 
 ## 📸 Preview
 
 ### Desktop View
-![Desktop Screenshot](./assets/desktop-preview.png)
+![Desktop Screenshot](./assets/images/desktop-preview.png)
 
 ### Mobile View
-![Mobile Screenshot](./assets/mobile-preview.png)
+![Mobile Screenshot](./assets//images/mobile-preview.png)
 
 ### Features Demo
-![Features GIF](./assets/features-demo.gif)
+![Features GIF]
 
 ## 🚀 Getting Started
 
