@@ -10,7 +10,7 @@ Personal portfolio website showcasing projects, skills and contact information. 
 
 ## 📋 Table of Contents
 
-- [About](#about)
+- [About](#-about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Preview](#preview)
