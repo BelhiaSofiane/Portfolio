@@ -19,10 +19,10 @@ Personal portfolio website showcasing projects, skills and contact information. 
   - [Installation](#installation)
 - [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ### 🎯 About
 
