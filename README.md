@@ -24,11 +24,11 @@ Personal portfolio website showcasing projects, skills and contact information. 
 - [License](#license)
 - [Contact](#contact)
 
-## 🎯 About
+### 🎯 About
 
 This repository contains my personal portfolio website. It highlights projects, experience, and contact info so recruiters and collaborators can quickly see what I build. The layout is responsive and optimized for fast loading and accessibility.
 
-## ✨ Features
+### ✨ Features
 
 - **Hero Section** - Eye-catching landing with intro and call-to-action
 - **Projects Gallery** - Showcase of completed projects with links and descriptions
