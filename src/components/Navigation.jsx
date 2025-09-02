@@ -41,8 +41,8 @@ const Navigation = ({ isScrolled }) => {
 
             {/* Mobile Menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden bg-white border-t">
-                    <div className="container mx-auto px-6 py-4">
+                <div className="md:hidden bg-white/20 border-t">
+                    <div className="container mx-auto px-6 py-4 ">
                         <button onClick={() => scrollToSection('projects')} className="block w-full text-left py-3 uppercase tracking-wider">Projects</button>
                         <button onClick={() => scrollToSection('services')} className="block w-full text-left py-3 uppercase tracking-wider">Services</button>
                         <button onClick={() => scrollToSection('about')} className="block w-full text-left py-3 uppercase tracking-wider">About</button>
