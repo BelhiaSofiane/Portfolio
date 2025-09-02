@@ -52,12 +52,22 @@ const ProjectsSection = () => {
                             }}
                         >
                             <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
-                                <div className="text-6xl md:text-8xl font-bold text-gray-200">{project.number}</div>
                                 <div className="flex-1">
                                     <h3 className="text-3xl md:text-4xl font-bold mb-2">{project.title}</h3>
                                     <p className="text-gray-500">{project.description}</p>
                                 </div>
-                                <div className={`w-32 h-32 md:w-48 md:h-48 ${project.color} rounded-2xl transform group-hover:scale-105 transition-transform duration-500`}></div>
+                                <div className='flex flex-row gap-2 text-center md:flex-col md:w-48 md:h-48  rounded-2xl transform group-hover:scale-105 transition-transform duration-500'>
+                                    <a 
+                                    href="#"
+                                    className="bg-black  text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
+                                        Live Demo
+                                    </a>
+                                    <a 
+                                    href="#"
+                                    className="bg-black text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
+                                        View Code
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
