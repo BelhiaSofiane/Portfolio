@@ -7,9 +7,33 @@ const ProjectsSection = () => {
     const [hoveredProject, setHoveredProject] = useState(null);
 
     const projects = [
-        { id: 1, title: 'MediGuide', number: '01', color: 'bg-gradient-to-br from-purple-400 to-pink-400', description: 'MediGuide is a medical app designed to help users seek medical assistance, receive advice, and securely store medical history all in a single place.' },
-        { id: 2, title: 'Quizzical', number: '02', color: 'bg-gradient-to-br from-blue-400 to-purple-400', description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.' },
-        { id: 3, title: 'Budgeting-App', number: '03', color: 'bg-gradient-to-br from-indigo-400 to-blue-400', description: 'Budgeting-App is a modern, React-powered tool designed to streamline personal finance management with real-time feedback and intuitive navigation. Built with a focus on performance and modularity, it offers a comprehensive solution for tracking expenses, managing budgets, and providing a seamless user experience.' }
+        { 
+            id: 1, 
+            title: 'MediGuide', 
+            number: '01', 
+            color: 'bg-gradient-to-br from-purple-400 to-pink-400', 
+            description: 'MediGuide is a medical app designed to help users seek medical assistance, receive advice, and securely store medical history all in a single place.' ,   
+            demo: 0 , 
+            githubRepo: 'https://github.com/BelhiaSofiane/MediGuide',
+        },
+        { 
+            id: 2, 
+            title: 'Quizzical', 
+            number: '02', 
+            color: 'bg-gradient-to-br from-blue-400 to-purple-400', 
+            description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.',
+            demo: 'https://quizzical-hut.netlify.app/',
+            githubRepo: 'https://github.com/BelhiaSofiane/Quizzical', },
+            
+            { 
+            id: 3, 
+            title: 'Budgeting-App', 
+            number: '03', 
+            color: 'bg-gradient-to-br from-indigo-400 to-blue-400', 
+            description: 'Budgeting-App is a modern, React-powered tool designed to streamline personal finance management with real-time feedback and intuitive navigation. Built with a focus on performance and modularity, it offers a comprehensive solution for tracking expenses, managing budgets, and providing a seamless user experience.'
+            ,demo: 'https://budgeting-app-vdjn.onrender.com',
+            githubRepo: 'https://github.com/BelhiaSofiane/Budgeting-App',
+        }
     ];
 
     useLayoutEffect(() => {
@@ -57,13 +81,22 @@ const ProjectsSection = () => {
                                     <p className="text-gray-500">{project.description}</p>
                                 </div>
                                 <div className='flex flex-row gap-2 text-center md:flex-col md:w-48 md:h-48  rounded-2xl transform group-hover:scale-105 transition-transform duration-500'>
+                                    {project.demo ? (
+                                         <a 
+                                        href={project.demo}
+                                        target="_blank"
+                                        className="bg-black  text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
+                                            Live Demo
+                                        </a>
+                                        ) : (
+                                        <span className="inline-block px-4 py-2 bg-gray-400 cursor-not-allowed text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider
+                                        ">
+                                            Work in progress...
+                                        </span>
+                                        )}
+                                   
                                     <a 
-                                    href="#"
-                                    className="bg-black  text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
-                                        Live Demo
-                                    </a>
-                                    <a 
-                                    href="#"
+                                    href={project.githubRepo}
                                     className="bg-black text-white px-8 py-4 rounded-2xl text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
                                         View Code
                                     </a>

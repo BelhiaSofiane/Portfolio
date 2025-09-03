@@ -14,10 +14,10 @@ const Footer = () => {
                         <a href="#contact" className="nav-link">Work With Me</a>
                     </div>
                     <div className="flex gap-4 mb-4 md:mb-0">
-                        <a href="https://github.com/BelhiaSofiane" className="w-8 h-8  text-white rounded-full flex items-center justify-center hover:scale-125 transition-transform duration-200">
+                        <a href="https://github.com/BelhiaSofiane" target='_blank' className="w-8 h-8  text-white rounded-full flex items-center justify-center hover:scale-125 transition-transform duration-200">
                             <img src={githubSvg} alt="github icon links to sofiane's github" />
                         </a>
-                        <a href="https://linkedin.com/in/sofiane-belhia" className="w-8 h-8  text-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                        <a href="https://linkedin.com/in/sofiane-belhia" target='_blank' className="w-8 h-8  text-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
                             <img src={linkedinSvg} alt="linkedin icon links to sofiane's linkedin" />
                         </a>
                     </div>
