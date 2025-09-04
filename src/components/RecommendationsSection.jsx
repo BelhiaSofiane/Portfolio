@@ -41,6 +41,7 @@ const RecommendationsSection = () => {
         
     return (
         <section id="recommendations" className="py-20 bg-gray-50">
+             
             <div className="container mx-auto px-6">
                 <h2 className="text-sm md:text-sm font-bold text-center mb-8 uppercase tracking-tight">Recommendations</h2>
                 <p className="text-center text-xl mb-16 max-w-3xl mx-auto">
