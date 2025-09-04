@@ -43,12 +43,12 @@ const ProjectsSection = () => {
             projects.forEach((project, index) => {
                 gsap.from(`.project-${index}`, {
                     y: 80,
-                    opacity: 0,
+                    opacity: 0.1,
                     rotation: -5 + (index * 2),
                     duration: 1,
                     scrollTrigger: {
                         trigger: `.project-${index}`,
-                        start: 'top 90%',
+                        start: 'top 60%',
                         end: 'bottom 20%',
                         scrub: 1
                     }

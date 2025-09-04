@@ -55,10 +55,12 @@ const RecommendationsSection = () => {
                                         <img src={testimonial.img} alt="User Avatar" className="w-full h-full rounded-full object-cover" />
                                     </div>
                                     <div>
-                                        <p className="font-bold ">{testimonial.name} • {testimonial.job}.  
-                                            <a href={testimonial.Linkedin}>
-                                                <img src={linkedinSvg} className="w-4 h-4 ml-2 inline-block transform hover:scale-110 transition-transform duration-200 ease-in-out" />
-                                            </a>
+                                        <p className="font-bold ">{testimonial.name} • {testimonial.job} •
+                                            
+                                                <a href={testimonial.Linkedin}>
+                                                    <img src={linkedinSvg} className="w-6 h-6 ml-1 pb-1.5 inline-block transform hover:scale-110 transition-transform duration-200 ease-in-out" />
+                                                </a>
+                                            
                                         </p>
                                         <p className="text-sm text-gray-500">{testimonial.testimonial}</p>
                                     </div>
