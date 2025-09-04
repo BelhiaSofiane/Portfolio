@@ -19,24 +19,26 @@ const RecommendationsSection = () => {
         },
         {
             id: 2,
-            name: 'Ismail Bentabet',
-            job: "frontend developer",
-            number: '02',
-            Linkedin: 'https://dz.linkedin.com/in/ismailbentabett',
-            img: `${ismail}`,
-            testimonial: "“I had the chance to connect with Sofiane recently, and I was impressed by his motivation and curiosity in web development. He’s proactive about learning, asks the right questions, and shows a clear passion for building clean, user-friendly interfaces. With his dedication, I’m confident he’ll grow quickly in the tech industry.”"
-        },
-        {
-            id: 3,
             name: 'Zakaria Belhaoua',
             job: "UX/UI Designer",
-            number: '03',
+            number: '02',
             Linkedin: 'https://www.linkedin.com/in/zakaria-belhaoua/',
             img: `${zaki}`,
             testimonial: "“Collaborating with Sofiane has been a great experience. He combines strong front-end skills with a real user-centered mindset, which makes working together smooth and productive. His openness to feedback and passion for creating intuitive solutions really stand out”"
         },
     ];
 
+    //     {
+    //         id: 3,
+    //         name: 'Ismail Bentabet',
+    //         job: "frontend developer",
+    //         number: '03',
+    //         Linkedin: 'https://dz.linkedin.com/in/ismailbentabett',
+    //         img: `${ismail}`,
+    //         testimonial: "“I had the chance to connect with Sofiane recently, and I was impressed by his motivation and curiosity in web development. He’s proactive about learning, asks the right questions, and shows a clear passion for building clean, user-friendly interfaces. With his dedication, I’m confident he’ll grow quickly in the tech industry.”"
+    //     },
+
+        
     return (
         <section id="recommendations" className="py-20 bg-gray-50">
             <div className="container mx-auto px-6">
