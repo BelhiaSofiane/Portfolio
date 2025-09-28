@@ -10,7 +10,7 @@ const RecommendationsSection = () => {
     const testimonials = [
         {
             id: 1,
-            name: 'Hachemi Mohamed Amime',
+            name: 'Hachemi Amime',
             job: "backend developer",
             number: '01',
             Linkedin: 'https://dz.linkedin.com/in/amiinehachemi',
@@ -28,15 +28,6 @@ const RecommendationsSection = () => {
         },
     ];
 
-    //     {
-    //         id: 3,
-    //         name: 'Ismail Bentabet',
-    //         job: "frontend developer",
-    //         number: '03',
-    //         Linkedin: 'https://dz.linkedin.com/in/ismailbentabett',
-    //         img: `${ismail}`,
-    //         testimonial: "“I had the chance to connect with Sofiane recently, and I was impressed by his motivation and curiosity in web development. He’s proactive about learning, asks the right questions, and shows a clear passion for building clean, user-friendly interfaces. With his dedication, I’m confident he’ll grow quickly in the tech industry.”"
-    //     },
 
         
     return (

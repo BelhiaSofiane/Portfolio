@@ -1,5 +1,10 @@
 // Contact Section
+
+import ContactForm from "./ContactForm";
+import { useState, useRef } from "react";
 const ContactSection = () => {
+    const [toggleForm, setToggleForm] = useState(false);
+
     return (
         <section id="contact" className="py-20">
             <div className="container mx-auto px-6 text-center">
@@ -11,11 +16,14 @@ const ContactSection = () => {
                         className="self-center bg-black text-white px-8 py-4 rounded-full text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
                         Click to view my Resume
                     </a>
-                    <button className="self-center bg-black text-white px-8 py-4 rounded-full text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
+                    <button 
+                    onClick={() => setToggleForm(!toggleForm)}
+                    className="self-center bg-black text-white px-8 py-4 rounded-full text-lg uppercase tracking-wider hover:bg-white hover:text-black hover:border-2 hover:border-black transition-colors transform hover:scale-110 transition-transform duration-300">
                         Work With Me
                     </button>
                 </div>
             </div>
+            {toggleForm && <ContactForm />}
         </section>
     );
 };
