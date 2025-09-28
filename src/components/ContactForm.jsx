@@ -13,10 +13,6 @@ export default function ContactForm() {
             formRef.current,
             import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
-            .then((res) => {
-                console.log(res);
-            })
-        console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
     };
 
     return (
