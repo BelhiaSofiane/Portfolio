@@ -6,7 +6,7 @@ Personal portfolio website showcasing projects, skills and contact information. 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
 
-**Live Demo:** [Soon to buy a domain name](https://your-portfolio-url.com)
+**Live Demo:** [Sofiane Belhia Portfolio](https://sofianebelhia.com/)
 
 ## 📋 Table of Contents
 
