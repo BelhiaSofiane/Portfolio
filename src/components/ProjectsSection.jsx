@@ -45,7 +45,7 @@ const ProjectsSection = () => {
                     y: 80,
                     opacity: 0.5,
                     ease: 'power3.out',
-                    duration: 0.3,
+                    duration: 0.1,
                     scrollTrigger: {
                         trigger: `.project-${index}`,
                         start: 'top 80%',
