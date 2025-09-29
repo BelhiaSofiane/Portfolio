@@ -48,8 +48,6 @@ const ProjectsSection = () => {
                     duration: 0.1,
                     scrollTrigger: {
                         trigger: `.project-${index}`,
-                        start: 'top 80%',
-                        end: 'bottom 20%',
                         scrub: 1
                     }
                 });
