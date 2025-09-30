@@ -29,6 +29,7 @@ export default function ContactForm() {
             .then((res) => {
                 alert("Email Sent, I'll get back to you as soon as possible!")
                 formRef.current.reset()
+                setForm({ name: "", email: "", message: "" })
             }, (error) => {
                 console.error("Email failed")
                 alert("Email Failed to send. Try again later.")
