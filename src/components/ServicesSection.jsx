@@ -1,9 +1,11 @@
 // Services Section
 const ServicesSection = () => {
     const services = [
-        { title: 'Responsive Website Development', description: 'Building modern, mobile-friendly, and fast websites with React & Tailwind CSS.', website: '#' },
-        { title: 'Interactive & Engaging UI', description: 'Creating smooth animations, transitions, and interactive components with GSAP, Framer Motion, and React.', website: '#' },
-        { title: '3D & Creative Web Experiences', description: 'Adding 3D models, product views, and immersive visuals using React Three Fiber & Three.js.', website: '#' }
+        { title: 'Responsive Website Development', description: 'Building modern, mobile-friendly, and fast websites with React, Tailwind CSS, and clean semantic HTML.', website: '#' },
+        { title: 'Interactive & Engaging UI', description: 'Creating smooth animations, transitions, and interactive components using GSAP, Framer Motion, and React state management.', website: '#' },
+        { title: 'Dynamic Data & API Integration', description: 'Fetching, displaying, and managing data from APIs or Firebase for dynamic, interactive web apps.', website: '#' },
+        { title: 'Performance & Accessibility Optimization', description: 'Ensuring websites are fast, SEO-friendly, and accessible with proper ARIA roles, semantic HTML, and optimized assets.', website: '#' }
+
     ];
 
     return (
