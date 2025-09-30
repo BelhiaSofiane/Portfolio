@@ -20,7 +20,7 @@ const ProjectsSection = () => {
             title: 'Quizzical', 
             number: '02', 
             description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.',
-            demo: 'quizzigame.netlify.app',
+            demo: 'https://quizzigame.netlify.app',
             githubRepo: 'https://github.com/BelhiaSofiane/Quizzical', },
             {
             id: 3, 
