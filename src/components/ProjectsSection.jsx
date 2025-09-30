@@ -9,27 +9,24 @@ const ProjectsSection = () => {
     const projects = [
         { 
             id: 1, 
-            title: 'MediGuide', 
+            title: 'Tenzies', 
             number: '01', 
-            color: 'bg-gradient-to-br from-purple-400 to-pink-400', 
-            description: 'MediGuide is a medical app designed to help users seek medical assistance, receive advice, and securely store medical history all in a single place.' ,   
-            demo: 0 , 
-            githubRepo: 'https://github.com/BelhiaSofiane/MediGuide',
+            description: 'Tenzies is a fast-paced dice game where the goal is to roll until all ten dice show the same number. Players keep the dice they want and re-roll the rest, racing against time (or friends) to match all ten as quickly as possible. Simple rules, quick rounds, and lots of fun make it a great casual game.' ,   
+            demo: 'https://dice-luck.netlify.app/' , 
+            githubRepo: 'https://github.com/BelhiaSofiane/tenziesgame',
         },
         { 
             id: 2, 
             title: 'Quizzical', 
             number: '02', 
-            color: 'bg-gradient-to-br from-blue-400 to-purple-400', 
             description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.',
-            demo: 'https://quizzical-wheat.vercel.app/',
+            demo: 'quizzigame.netlify.app',
             githubRepo: 'https://github.com/BelhiaSofiane/Quizzical', },
             
             { 
             id: 3, 
             title: 'Budgeting-App', 
             number: '03', 
-            color: 'bg-gradient-to-br from-indigo-400 to-blue-400', 
             description: 'Budgeting-App is a modern, React-powered tool designed to streamline personal finance management with real-time feedback and intuitive navigation. Built with a focus on performance and modularity, it offers a comprehensive solution for tracking expenses, managing budgets, and providing a seamless user experience.'
             ,demo: 'https://budgeting-app-vdjn.onrender.com',
             githubRepo: 'https://github.com/BelhiaSofiane/Budgeting-App',
@@ -45,10 +42,10 @@ const ProjectsSection = () => {
                     y: 80,
                     opacity: 0.5,
                     ease: 'power3.out',
-                    duration: 0.1,
+                    duration: 0.3,
                     scrollTrigger: {
                         trigger: `.project-${index}`,
-                        scrub: 1
+                        scrub: 0.1
                     }
                 });
             });
