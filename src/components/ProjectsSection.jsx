@@ -22,11 +22,19 @@ const ProjectsSection = () => {
             description: 'Quizzical is a dynamic quiz application built with React. It allows users to test their knowledge across various categories with fun, multiple-choice trivia questions. The quiz fetches real-time data from an external API and provides instant feedback on your answers.',
             demo: 'quizzigame.netlify.app',
             githubRepo: 'https://github.com/BelhiaSofiane/Quizzical', },
+            {
+            id: 3, 
+            title: 'Cart list', 
+            number: '03', 
+            description: 'A simple real-time shopping list app using Firebase Realtime Database. Users can add items, see updates instantly, and remove items by clicking them.'
+            ,demo: 'https://firebase-shopping-cart.netlify.app/',
+            githubRepo: 'https://github.com/BelhiaSofiane/Shopping-Cart',
+            },
             
             { 
-            id: 3, 
+            id: 4, 
             title: 'Budgeting-App', 
-            number: '03', 
+            number: '04', 
             description: 'Budgeting-App is a modern, React-powered tool designed to streamline personal finance management with real-time feedback and intuitive navigation. Built with a focus on performance and modularity, it offers a comprehensive solution for tracking expenses, managing budgets, and providing a seamless user experience.'
             ,demo: 'https://budgeting-app-vdjn.onrender.com',
             githubRepo: 'https://github.com/BelhiaSofiane/Budgeting-App',
